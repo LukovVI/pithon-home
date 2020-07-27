@@ -25,7 +25,7 @@ print(df[:3])
 print(df.loc[df.index[[0, 2, 3]]])
 
 #66
-print(df[::, ["name", "age"]])
+print(df.loc[:, ["name", "age"]])
 
 #67
 print(df.iloc[[0, 2, 3]][["name", "age"]])
